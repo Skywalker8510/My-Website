@@ -1,13 +1,13 @@
 html {
-    background-color: rgb(18,18,18);
-    color:white;
-    text-align:center
+    background-color: rgb(18,20,25);
+    color: #0cffff;
+    text-align:center;
 }
 
 body {
     max-width: 1200px;
     margin: auto;
-    padding: 20px
+    padding: 20px;
 }
 header {
     font-size: 20px;
@@ -15,20 +15,21 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 20px
+    padding: 20px;
+    margin-top: -20px;
 }
 nav {
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px
+    font-size: 25px;
 }
 a {
-    color:white;
-    margin-right: 10px;
+    color: #0cffff;
+    margin-right: 20px;
 }
 img {
     max-width: 750px;
     width: 100%;
     display: block;
-    margin: auto
+    margin: auto;
 }
