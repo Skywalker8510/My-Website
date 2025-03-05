@@ -1,0 +1,32 @@
+html {
+    background-color:Black;
+    color:white;
+    text-align:center
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px
+}
+header {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px
+}
+nav {
+    display: flex;
+    font-size: 20px
+}
+a {
+    color:white;
+    margin-right: 10px;
+}
+img {
+    max-width: 750px;
+    width: 100%;
+    display: block;
+    margin: auto
+}
