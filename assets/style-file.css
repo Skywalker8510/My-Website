@@ -45,3 +45,8 @@ figure.cover img {
     object-fit: cover;
     border-radius: 15px;
 }
+
+p {
+    text-align: left;
+
+}
