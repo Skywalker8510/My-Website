@@ -50,3 +50,9 @@ p {
     text-align: left;
     font-size: 21px;
 }
+
+div.copyright {
+    display: flex;
+    flex-direction: column;
+    gap: .4em;
+}
