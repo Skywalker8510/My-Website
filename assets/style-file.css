@@ -32,8 +32,13 @@ nav {
     flex-wrap: wrap;
     font-size: 20px
 }
+
 a {
-    color:white;
+    color: white;
+}
+
+a.navbar {
+    color: #98d4a3;
     margin-right: 10px;
 }
 
@@ -55,4 +60,5 @@ div.copyright {
     display: flex;
     flex-direction: column;
     gap: .4em;
+    color: #98d4a3
 }
