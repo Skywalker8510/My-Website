@@ -38,7 +38,7 @@ a {
 }
 
 a.navbar {
-    color: #98d4a3;
+    color: #6ccd87;
     margin-right: 10px;
 }
 
@@ -60,5 +60,5 @@ div.copyright {
     display: flex;
     flex-direction: column;
     gap: .4em;
-    color: #98d4a3
+    color: #6ccd87
 }
