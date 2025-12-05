@@ -1,1 +1,1 @@
-# This is the ropo for my website!
+# This is the repo for my website!
