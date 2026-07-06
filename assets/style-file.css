@@ -40,23 +40,26 @@ a {
 
 .navbar {
     color: White;
-    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .navbar.active {
     color: #2f81f7;
-    margin-right: 10px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .navbar:hover {
     color: #2f81f7 !important;
+    text-decoration: underline !important;
 }
 
 nav:has(.navbar:hover) .active {
     color: White;
+    text-decoration: none;
+    transition: none !important;
 }
 
 .cover {
