@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <a href="/" class="navbar"> <h1>M2Tech</h1>
+    <a href="/" class="navbar"> <h1>MMTech</h1>
     </a>
     <nav>
         <a href="/" class="navbar"> Home </a>
@@ -19,23 +19,48 @@
     </nav>
 </header>
 
-<main style="display: grid;grid-template-columns: 50% 50%;">
-    <figure class="cover">
-        <img src="/assets/images/lake-1.jpg" alt="View of a lake">
-    </figure>
+<main>
+    <section class="dashboard">
+        <section style="grid-column: span 7; grid-template-columns: repeat(2,1fr)" class="about-panel">
 
-    <section style="margin-left: auto;width: 95%">
-        <h2 style="text-align: left; margin-bottom: 20px">Who Am I?</h2>
-        <p style="margin-bottom: 10px"> Hi I'm MMtech</p>
-        <p>
-            I'm a Computer Science and Mechanical Engineering student that enjoys playing with Servers in his free time. I also enjoy camping, climbing, biking, reading, and listening to music. One other hobby I have that I want to display on this website is <a href="/photography"> photography</a>.
-        </p>
+            <div class="cover" style="grid-column: span 2">
+                <img src="/assets/images/lake-1.jpg" alt="View of a lake">
+            </div>
+
+            <div class="about-content" style="grid-column: span 1">
+
+                <h1>Hi, I'm MMTech.</h1>
+
+                <p>
+                    I'm a Computer Science and Robotics Engineering student that enjoys playing with Servers in his free time. I also enjoy camping, climbing, biking, reading, and listening to music.
+                </p>
+
+                <div class="about-buttons">
+                    <a href="/projects">Projects</a>
+                    <a href="https://github.com/Skywalker8510">
+                        GitHub
+                    </a>
+                    <a href="/photography"> Photos</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section style="grid-column: span 3" class="panel">
+            <p class="panel-heading">current activity</p>
+            <p style="text-align: center"> in progress</p>
+        </section>
+
+        <section style="grid-column: span 10; min-height: 250px" class="panel">
+            <p class="panel-heading">more things to come!</p>
+        </section>
     </section>
 </main>
 
 <footer style="display: flex; flex-direction: row; justify-content: space-between; align-items: self-start; margin-top: 30px">
     <div class="copyright">
-        <p style="font-weight: 500; font-size: 14px; letter-spacing: .1px; margin: 0;">© 2025 M2Tech</p>
+        <p style="font-weight: 500; font-size: 14px; letter-spacing: .1px; margin: 0;">© 2026 MMTech</p>
 <!--        <a href="https://github.com/Skywalker8510/My-Website" target="_blank" style="font-size: 14px; text-align: left; color: #6ccd87">Source</a>-->
     </div>
 </footer>
