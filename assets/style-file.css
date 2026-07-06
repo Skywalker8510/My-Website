@@ -38,9 +38,25 @@ a {
     color: white;
 }
 
-a.navbar {
+.navbar {
     color: White;
     margin-right: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar.active {
+    color: #2f81f7;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.navbar:hover {
+    color: #2f81f7 !important;
+}
+
+nav:has(.navbar:hover) .active {
+    color: White;
 }
 
 .cover {
